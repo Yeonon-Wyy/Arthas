@@ -11,7 +11,7 @@ CREATE TABLE `user` (
   `password` varchar(255) NOT NULL,
   `phone` varchar(20) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `sex` varchar(255) NOT NULL,
+  `sex` tinyint(2) NOT NULL,
   `avatar` varchar(255) NOT NULL,
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL,
