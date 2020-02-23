@@ -18,6 +18,7 @@
     <modules>
         <module>arthas-user-service</module>
         <module>arthas-file-service</module>
+        <module>arthas-common</module>
     </modules>
 
     <properties>
